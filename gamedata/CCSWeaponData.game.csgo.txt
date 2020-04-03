@@ -558,12 +558,12 @@
 				"windows"   "560"
 				"linux"     "560"
 			}
-			"m_bBurstMode"		// "has burst mode" attribute (bool | 1 bytes)
+			"m_bBurstMode"		// "has burst mode" attribute (bool | 1 byte)
 			{
 				"windows"   "564"
 				"linux"     "564"
 			}
-			"m_bIsRevolver"		// "is revolver" attribute (bool | 1 bytes)
+			"m_bIsRevolver"		// "is revolver" attribute (bool | 1 byte)
 			{
 				"windows"   "565"
 				"linux"     "565"
