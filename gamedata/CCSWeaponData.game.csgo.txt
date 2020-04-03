@@ -1,0 +1,602 @@
+"Games"
+{
+	"csgo"
+	{
+		"Offsets"
+		{
+			"m_pszClassName"		// "name" items (char* | 4 bytes)
+			{
+				"windows"   "4"
+				"linux"     "4"
+			}
+			"m_nDefIndex"		// selection items (int16 | 2 bytes)
+			{
+				"windows"   "8"
+				"linux"     "8"
+			}
+			"m_bBaseItem"		// "baseitem" items (bool | 1 byte)
+			{
+				"windows"   "10"
+				"linux"     "10"
+			}
+			"m_bDefaultSlotItem"		// "default_slot_item" items (bool | 1 byte)
+			{
+				"windows"   "11"
+				"linux"     "11"
+			}
+			"m_pDefinition"		// item definition (class CEconItemDefinition* | 4 bytes)
+			{
+				"windows"   "16"
+				"linux"     "16"
+			}
+			"m_iPrimaryClip"		// "primary clip size" attribute (int | 4 bytes)
+			{
+				"windows"   "20"
+				"linux"     "20"
+			}
+			"m_iSecondaryClip"		// "secondary clip size" attribute (int | 4 bytes)
+			{
+				"windows"   "24"
+				"linux"     "24"
+			}
+			"m_iPrimaryDefaultClip"		// "primary default clip size" attribute (int | 4 bytes)
+			{
+				"windows"   "28"
+				"linux"     "28"
+			}
+			"m_iSecondaryDefaultClip"		// "secondary default clip size" attribute (int | 4 bytes)
+			{
+				"windows"   "32"
+				"linux"     "32"
+			}
+			"m_iPrimaryReserveAmmo"		// "primary reserve ammo max" attribute (int | 4 bytes)
+			{
+				"windows"   "36"
+				"linux"     "36"
+			}
+			"m_iSecondaryReserveAmmo"		// "secondary reserve ammo max" attribute (char* | 4 bytes)
+			{
+				"windows"   "40"
+				"linux"     "40"
+			}
+			"m_pszItemBaseName"		// "item_class" prefabs (char* | 4 bytes)
+			{
+				"windows"   "140"
+				"linux"     "140"
+			}
+			"m_bAllowHandFlipping"		// "allow hand flipping" attribute (bool | 1 byte)
+			{
+				"windows"   "144"
+				"linux"     "144"
+			}
+			"m_bModelRightHended"		// "model right handed" attribute (bool | 1 byte)
+			{
+				"windows"   "145"
+				"linux"     "145"
+			}
+			"m_bIsMeleeWeapon"		// "is melee weapon" attribute (bool | 1 byte)
+			{
+				"windows"   "146"
+				"linux"     "146"
+			}
+			// (1 << 0) "itemflag select on empty" attribute
+			// (1 << 1) "itemflag no auto reload" attribute
+			// (1 << 2) "itemflag no auto switch empty" attribute
+			// (1 << 3) "itemflag limit in world" attribute
+			// (1 << 4) "itemflag exhaustible" attribute
+			// (1 << 5) "itemflag do hit location dmg" attribute
+			// (1 << 6) "itemflag no ammo pickups" attribute
+			// (1 << 7) "itemflag no item pickup" attribute
+			"m_iItemFlags"		// item flags (int | 4 byte)
+			{
+				"windows"   "152"
+				"linux"     "152"
+			}
+			"m_iWeight"		// "weapon weight" attribute (int | 4 byte)
+			{
+				"windows"   "156"
+				"linux"     "156"
+			}
+			"m_iRumbleEffect"		// "rumble effect" attribute (int | 4 byte)
+			{
+				"windows"   "192"
+				"linux"     "192"
+			}
+			"m_WeaponType"		// weapon type (enum CSWeaponType | 4 byte)
+			{
+				"windows"   "200"
+				"linux"     "200"
+			}
+			"m_BotDifficultyType"		// bot difficulty type (enum BotDifficultyType | 4 byte)
+			{
+				"windows"   "204"
+				"linux"     "204"
+			}
+			"m_iWeaponPrice"		// "in game price" attribute (int | 4 bytes)
+			{
+				"windows"   "208"
+				"linux"     "208"
+			}
+			"m_iKillAward"		// "kill award" attribute (int | 4 bytes)
+			{
+				"windows"   "212"
+				"linux"     "212"
+			}
+			"m_pszAnimExtension"		// "player_animation_extension" visuals (char* | 4 bytes)
+			{
+				"windows"   "216"
+				"linux"     "216"
+			}
+			"m_flCycleTime[0]"		// "cycletime" attribute (float | 4 bytes)
+			{
+				"windows"   "220"
+				"linux"     "220"
+			}
+			"m_flCycleTime[1]"		// "cycletime alt" attribute (float | 4 bytes)
+			{
+				"windows"   "224"
+				"linux"     "224"
+			}
+			"m_flTimeToIdleAfterFire"		// "time to idle" attribute (float | 4 bytes)
+			{
+				"windows"   "228"
+				"linux"     "228"
+			}
+			"m_flIdleInterval"		// "idle interval" attribute (float | 4 bytes)
+			{
+				"windows"   "232"
+				"linux"     "232"
+			}
+			"m_bFullAuto"		// "is full auto" attribute (bool | 4 bytes)
+			{
+				"windows"   "236"
+				"linux"     "236"
+			}
+			"m_iDamage"		// "damage" attribute (int | 4 bytes)
+			{
+				"windows"   "240"
+				"linux"     "240"
+			}
+			"m_flArmorRatio"		// "armor ratio" attribute (float | 4 bytes)
+			{
+				"windows"   "244"
+				"linux"     "244"
+			}
+			"m_iBullets"		// "bullets" attribute (int | 4 bytes)
+			{
+				"windows"   "248"
+				"linux"     "248"
+			}
+			"m_iPenetration"		// "penetration" attribute (int | 4 bytes)
+			{
+				"windows"   "252"
+				"linux"     "252"
+			}
+			"m_flFlinchVelocityModifierLarge"		// "flinch velocity modifier large" attribute (float | 4 bytes)
+			{
+				"windows"   "252"
+				"linux"     "252"
+			}
+			"m_flFlinchVelocityModifierSmall"		// "flinch velocity modifier small" attribute (float | 4 bytes)
+			{
+				"windows"   "256"
+				"linux"     "256"
+			}
+			"m_flFlinchVelocityModifierSmall"		// "range" attribute (float | 4 bytes)
+			{
+				"windows"   "260"
+				"linux"     "260"
+			}
+			"m_flRange"		// "range" attribute (float | 4 bytes)
+			{
+				"windows"   "264"
+				"linux"     "264"
+			}
+			"m_flRangeModifier"		// "range modifier" attribute (float | 4 bytes)
+			{
+				"windows"   "268"
+				"linux"     "268"
+			}
+			"m_flThrowVelocity"		// "throw velocity" attribute (float | 4 bytes)
+			{
+				"windows"   "272"
+				"linux"     "272"
+			}
+			"m_vecStaticAttributes"		// "throw velocity" attribute (CUtlVector<static_attrib_t, CUtlMemory<static_attrib_t, int>> | 12 bytes)
+			{
+				"windows"   "276"
+				"linux"     "276"
+			}
+			"m_iIsSilencer"		// "has silencer" attribute (int | 4 bytes)
+			{
+				"windows"   "288"
+				"linux"     "288"
+			}
+			"m_pszSilencerModel"		// "silencer model" attribute (char* | 4 bytes)
+			{
+				"windows"   "292"
+				"linux"     "292"
+			}
+			"m_iCrosshairMinDistance"		// "crosshair min distance" attribute (int | 4 bytes)
+			{
+				"windows"   "296"
+				"linux"     "296"
+			}
+			"m_iCrosshairDeltaDistance"		// "crosshair delta distance" attribute (int | 4 bytes)
+			{
+				"windows"   "300"
+				"linux"     "300"
+			}
+			"m_flMaxSpeed[0]"		// "max player speed" attribute (float | 4 bytes)
+			{
+				"windows"   "304"
+				"linux"     "304"
+			}
+			"m_flMaxSpeed[1]"		// "max player speed alt" attribute (float | 4 bytes)
+			{
+				"windows"   "308"
+				"linux"     "308"
+			}
+			"m_flAttrackMoveSpeedFactor"		// "attack movespeed factor" attribute (float | 4 bytes)
+			{
+				"windows"   "312"
+				"linux"     "312"
+			}
+			"m_flSpread[0]"		// "spread" attribute (float | 4 bytes)
+			{
+				"windows"   "316"
+				"linux"     "316"
+			}
+			"m_flSpread[1]"		// "spread alt" attribute (float | 4 bytes)
+			{
+				"windows"   "320"
+				"linux"     "320"
+			}
+			"m_flInaccuracyCrouch[0]"		// "inaccuracy crouch" attribute (float | 4 bytes)
+			{
+				"windows"   "324"
+				"linux"     "324"
+			}
+			"m_flInaccuracyCrouch[1]"		// "inaccuracy crouch alt" attribute (float | 4 bytes)
+			{
+				"windows"   "328"
+				"linux"     "328"
+			}
+			"m_flInaccuracyStand[0]"		// "inaccuracy stand" attribute (float | 4 bytes)
+			{
+				"windows"   "332"
+				"linux"     "332"
+			}
+			"m_flInaccuracyStand[1]"		// "inaccuracy stand alt" attribute (float | 4 bytes)
+			{
+				"windows"   "336"
+				"linux"     "336"
+			}
+			"m_flInaccuracyJumpInital"		// "inaccuracy jump initial" attribute (float | 4 bytes)
+			{
+				"windows"   "340"
+				"linux"     "340"
+			}
+			"m_flInaccuracyJump[0]"		// "inaccuracy jump" attribute (float | 4 bytes)
+			{
+				"windows"   "344"
+				"linux"     "344"
+			}
+			"m_flInaccuracyJump[1]"		// "inaccuracy jump" attribute (float | 4 bytes)
+			{
+				"windows"   "348"
+				"linux"     "348"
+			}
+			"m_flInaccuracyLand[0]"		// "inaccuracy land" attribute (float | 4 bytes)
+			{
+				"windows"   "352"
+				"linux"     "352"
+			}
+			"m_flInaccuracyLand[1]"		// "inaccuracy land alt" attribute (float | 4 bytes)
+			{
+				"windows"   "356"
+				"linux"     "356"
+			}
+			"m_flInaccuracyLadder[0]"		// "inaccuracy ladder" attribute (float | 4 bytes)
+			{
+				"windows"   "360"
+				"linux"     "360"
+			}
+			"m_flInaccuracyLadder[1]"		// "inaccuracy ladder alt" attribute (float | 4 bytes)
+			{
+				"windows"   "364"
+				"linux"     "364"
+			}
+			"m_flInaccuracyImpulseFire[0]"		// "inaccuracy fire" attribute (float | 4 bytes)
+			{
+				"windows"   "368"
+				"linux"     "368"
+			}
+			"m_flInaccuracyImpulseFire[1]"		// "inaccuracy fire alt" attribute (float | 4 bytes)
+			{
+				"windows"   "372"
+				"linux"     "372"
+			}
+			"m_flInaccuracyMove[0]"		// "inaccuracy move" attribute (float | 4 bytes)
+			{
+				"windows"   "376"
+				"linux"     "376"
+			}
+			"m_flInaccuracyMove[1]"		// "inaccuracy move alt" attribute (float | 4 bytes)
+			{
+				"windows"   "380"
+				"linux"     "380"
+			}
+			"m_flInaccuracyReload[0]"		// "inaccuracy reload" attribute (float | 4 bytes)
+			{
+				"windows"   "384"
+				"linux"     "384"
+			}
+			"m_iRecoilSeed"		// "recoil seed" attribute (int | 4 bytes)
+			{
+				"windows"   "388"
+				"linux"     "388"
+			}
+			"m_flRecoilAngle[0]"		// "recoil angle" attribute (float | 4 bytes)
+			{
+				"windows"   "392"
+				"linux"     "392"
+			}
+			"m_flRecoilAngle[1]"		// "recoil angle alt" attribute (float | 4 bytes)
+			{
+				"windows"   "396"
+				"linux"     "396"
+			}
+			"m_flRecoilAngleVariance[0]"		// "recoil angle variance" attribute (float | 4 bytes)
+			{
+				"windows"   "400"
+				"linux"     "400"
+			}
+			"m_flRecoilAngleVariance[1]"		// "recoil angle variance alt" attribute (float | 4 bytes)
+			{
+				"windows"   "404"
+				"linux"     "404"
+			}
+			"m_flRecoilMagnitude[0]"		// "recoil magnitude" attribute (float | 4 bytes)
+			{
+				"windows"   "408"
+				"linux"     "408"
+			}
+			"m_flRecoilMagnitude[1]"		// "recoil magnitude alt" attribute (float | 4 bytes)
+			{
+				"windows"   "412"
+				"linux"     "412"
+			}
+			"m_flRecoilMagnitudeVariance[0]"		// "recoil magnitude variance" attribute (float | 4 bytes)
+			{
+				"windows"   "416"
+				"linux"     "416"
+			}
+			"m_flRecoilMagnitudeVariance[1]"		// "recoil magnitude variance alt" attribute (float | 4 bytes)
+			{
+				"windows"   "420"
+				"linux"     "420"
+			}
+			"m_iSpreadSeed"		// "spread seed" attribute (int | 4 bytes)
+			{
+				"windows"   "424"
+				"linux"     "424"
+			}
+			"m_flRecoveryTimeCrouch"		// "recovery time crouch" attribute (float | 4 bytes)
+			{
+				"windows"   "428"
+				"linux"     "428"
+			}
+			"m_flRecoveryTimeStand"		// "recovery time stand" attribute (float | 4 bytes)
+			{
+				"windows"   "432"
+				"linux"     "432"
+			}
+			"m_flRecoveryTimeCrouchFinal"		// "recovery time crouch final" attribute (float | 4 bytes)
+			{
+				"windows"   "436"
+				"linux"     "436"
+			}
+			"m_flRecoveryTimeStandFinal"		// "recovery time stand final" attribute (float | 4 bytes)
+			{
+				"windows"   "440"
+				"linux"     "440"
+			}
+			"m_iRecoveryTransitionStartBullet"		// "recovery transition start bullet" attribute (int | 4 bytes)
+			{
+				"windows"   "444"
+				"linux"     "444"
+			}
+			"m_iRecoveryTransitionEndBullet"		// "recovery transition end bullet" attribute (int | 4 bytes)
+			{
+				"windows"   "448"
+				"linux"     "448"
+			}
+			"m_bUnZoomAfterShot"		// "unzoom after shot" attribute (bool | 1 byte)
+			{
+				"windows"   "452"
+				"linux"     "452"
+			}
+			"m_bHideViewModelZoomed"		// "hide view model zoomed" attribute (bool | 1 byte)
+			{
+				"windows"   "453"
+				"linux"     "453"
+			}
+			"m_iZoomLevels"		// "zoom levels" attribute (int | 4 bytes)
+			{
+				"windows"   "456"
+				"linux"     "456"
+			}
+			// Not found
+			// "m_iZoomFov[0]"		// "zoom fov 0" attribute (4 bytes)
+			// {
+			// 	"windows"   "?"
+			// 	"linux"     "?"
+			// }
+			"m_iZoomFov[1]"		// "zoom fov 1" attribute (int | 4 bytes)
+			{
+				"windows"   "460"
+				"linux"     "460"
+			}
+			"m_iZoomFov[2]"		// "zoom fov 2" attribute (int | 4 bytes)
+			{
+				"windows"   "464"
+				"linux"     "464"
+			}
+			"m_flZoomTime[0]"		// "zoom time 0" attribute (float | 4 bytes)
+			{
+				"windows"   "468"
+				"linux"     "468"
+			}
+			"m_flZoomTime[1]"		// "zoom time 1" attribute (float | 4 bytes)
+			{
+				"windows"   "472"
+				"linux"     "472"
+			}
+			"m_flZoomTime[2]"		// "zoom time 2" attribute (float | 4 bytes)
+			{
+				"windows"   "476"
+				"linux"     "476"
+			}
+			"m_pszAddonLocation"		// "addon_location" visuals (char* | 4 bytes)
+			{
+				"windows"   "480"
+				"linux"     "480"
+			}
+			"m_pszParticleEffectName"		// "particle_effect" visuals (char* | 4 bytes) // it was hard to identify when not in use
+			{
+				"windows"   "484"
+				"linux"     "484"
+			}
+			"m_flAddonScale"		// "addon scale" attribute (float | 4 bytes)
+			{
+				"windows"   "488"
+				"linux"     "488"
+			}
+			"m_pszEjectBrassEffectName"		// "eject_brass_effect" visuals (char* | 4 bytes)
+			{
+				"windows"   "492"
+				"linux"     "492"
+			}
+			"m_pszTracerEffectName"		// "tracer_effect" visuals (char* | 4 bytes)
+			{
+				"windows"   "496"
+				"linux"     "496"
+			}
+			"m_iTracerFequency[0]"		// "tracer frequency" attribute (int | 4 bytes)
+			{
+				"windows"   "500"
+				"linux"     "500"
+			}
+			"m_iTracerFequency[1]"		// "tracer frequency alt" attribute (int | 4 bytes)
+			{
+				"windows"   "504"
+				"linux"     "504"
+			}
+			"m_pszMuzzleFlashEffect1stPersonName[0]"		// "muzzle_flash_effect_1st_person" visuals (char* | 4 bytes)
+			{
+				"windows"   "508"
+				"linux"     "508"
+			}
+			"m_pszMuzzleFlashEffect1stPersonName[1]"		// "muzzle_flash_effect_1st_person alt" visuals (char* | 4 bytes)
+			{
+				"windows"   "512"
+				"linux"     "512"
+			}
+			"m_pszMuzzleFlashEffect3rdPersonName[0]"		// "muzzle_flash_effect_3rd_person" visuals (char* | 4 bytes)
+			{
+				"windows"   "516"
+				"linux"     "516"
+			}
+			"m_pszMuzzleFlashEffect3rdPersonName[1]"		// "muzzle_flash_effect_3rd_person alt" visuals (char* | 4 bytes)
+			{
+				"windows"   "520"
+				"linux"     "520"
+			}
+			"m_pszHeatEffectName"		// "heat_effect" visuals (char* | 4 bytes)
+			{
+				"windows"   "524"
+				"linux"     "524"
+			}
+			"m_flHeatPerShot"		// "heat per shot" attribute (float | 4 bytes)
+			{
+				"windows"   "528"
+				"linux"     "528"
+			}
+			"m_pszZoomINSound"		// "zoom_in_sound" attribute (char* | 4 bytes)
+			{
+				"windows"   "532"
+				"linux"     "532"
+			}
+			"m_pszZoomOUTSound"		// "zoom_out_sound" attribute (char* | 4 bytes)
+			{
+				"windows"   "536"
+				"linux"     "536"
+			}
+			"m_flInaccuracyPitchShift"		// "inaccuracy pitch shift" attribute (float | 4 bytes)
+			{
+				"windows"   "540"
+				"linux"     "540"
+			}
+			"m_iInaccuracyAltSoundThreshold"		// "inaccuracy alt sound threshold" attribute (int | 4 bytes)
+			{
+				"windows"   "544"
+				"linux"     "544"
+			}
+			"m_flBotAudibleRange"		// "bot audible range" attribute (float | 4 bytes)
+			{
+				"windows"   "548"
+				"linux"     "548"
+			}
+			"m_pPaintData"		// "paint_data" prefab struct (struct PaintData* | 4 bytes)
+			{
+				"windows"   "552"
+				"linux"     "552"
+			}
+			"m_pszWrongTeamMsg"		// "wrong team msg" attribute (char* | 4 bytes)
+			{
+				"windows"   "560"
+				"linux"     "560"
+			}
+			"m_bBurstMode"		// "has burst mode" attribute (bool | 1 bytes)
+			{
+				"windows"   "564"
+				"linux"     "564"
+			}
+			"m_bIsRevolver"		// "is revolver" attribute (bool | 1 bytes)
+			{
+				"windows"   "565"
+				"linux"     "565"
+			}
+			"m_bCannotShootUnderwater"		// "cannot shoot underwater" attribute (bool | 1 byte)
+			{
+				"windows"   "566"
+				"linux"     "566"
+			}
+		}
+
+		// 8B 01 56 8B 35 2A 2A 2A 2A FF 10 0F B7 C0 B9 2A 2A 2A 2A 50 FF 56 08 5E C3 on Windows for seach this functions.
+		"Signatures"
+		{
+			// GetCCSWeaponData(const CEconItemView *)
+			// https://github.com/alliedmodders/sourcemod/blob/master/gamedata/sm-cstrike.games/game.csgo.txt#L166
+			// GetFileWeaponInfoFromHandle + 0x20 on Linux
+			"GetCCSWeaponData"
+			{
+				"library"	"server"
+
+				"windows"	"\x85\xC9\x75\x2A\x33\xC0\xC3\xE8"
+				"linux"		"\x55\x89\xE5\x83\xEC\x18\x8B\x45\x08\x85\xC0\x74\x2A\x89\x04\x24"
+			}
+			// GetCCSWeaponDataFromDef(const CEconItemDefinition *)
+			// GetFileWeaponInfoFromHandle + 0x20 on Linux
+			"GetCCSWeaponDataFromDef"
+			{
+				"library"	"server"
+
+				"windows"	"\x85\xC9\x75\x2A\x33\xC0\xC3\x8B\x01"
+				"linux"		"\x55\x31\xC0\x89\xE5\x53\x83\xEC\x14\x8B\x55\x08\x85\xD2"
+			}
+		}
+	}
+}
