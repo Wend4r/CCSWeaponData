@@ -580,7 +580,7 @@
 		{
 			// GetCCSWeaponData(const CEconItemView *)
 			// https://github.com/alliedmodders/sourcemod/blob/master/gamedata/sm-cstrike.games/game.csgo.txt#L166
-			// GetFileWeaponInfoFromHandle + 0x20 on Linux
+			// "FX_FireBullets: GetFileWeaponInfoFromHandle failed for weapon %s\n" on Linux
 			"GetCCSWeaponData"
 			{
 				"library"	"server"
@@ -589,7 +589,7 @@
 				"linux"		"\x55\x89\xE5\x83\xEC\x18\x8B\x45\x08\x85\xC0\x74\x2A\x89\x04\x24"
 			}
 			// GetCCSWeaponDataFromDef(const CEconItemDefinition *)
-			// GetFileWeaponInfoFromHandle + 0x20 on Linux
+			// GetCCSWeaponData + 0x20 on Linux
 			"GetCCSWeaponDataFromDef"
 			{
 				"library"	"server"
