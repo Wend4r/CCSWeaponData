@@ -282,7 +282,7 @@
 				"windows"   "344"
 				"linux"     "344"
 			}
-			"m_flInaccuracyJump[1]"		// "inaccuracy jump" attribute (float | 4 bytes)
+			"m_flInaccuracyJump[1]"		// "inaccuracy jump alt" attribute (float | 4 bytes)
 			{
 				"windows"   "348"
 				"linux"     "348"
