@@ -277,155 +277,166 @@
 				"windows"   "340"
 				"linux"     "340"
 			}
-			"m_flInaccuracyJump[0]"		// "inaccuracy jump" attribute (float | 4 bytes)
+			"m_flInaccuracyJumpApex[0]"		// "inaccuracy jump apex" attribute (float | 4 bytes)
 			{
 				"windows"   "344"
 				"linux"     "344"
 			}
-			"m_flInaccuracyJump[1]"		// "inaccuracy jump alt" attribute (float | 4 bytes)
+			// Not found
+			// "m_flInaccuracyJumpApex[1]"		// "inaccuracy jump apex alt" attribute (float | 4 bytes)
+			// {
+			// 	"windows"   "?"
+			// 	"linux"     "?"
+			// }
+			"m_flInaccuracyJump[0]"		// "inaccuracy jump" attribute (float | 4 bytes)
 			{
 				"windows"   "348"
 				"linux"     "348"
 			}
-			"m_flInaccuracyLand[0]"		// "inaccuracy land" attribute (float | 4 bytes)
+			"m_flInaccuracyJump[1]"		// "inaccuracy jump alt" attribute (float | 4 bytes)
 			{
 				"windows"   "352"
 				"linux"     "352"
 			}
-			"m_flInaccuracyLand[1]"		// "inaccuracy land alt" attribute (float | 4 bytes)
+			"m_flInaccuracyLand[0]"		// "inaccuracy land" attribute (float | 4 bytes)
 			{
 				"windows"   "356"
 				"linux"     "356"
 			}
-			"m_flInaccuracyLadder[0]"		// "inaccuracy ladder" attribute (float | 4 bytes)
+			"m_flInaccuracyLand[1]"		// "inaccuracy land alt" attribute (float | 4 bytes)
 			{
 				"windows"   "360"
 				"linux"     "360"
 			}
-			"m_flInaccuracyLadder[1]"		// "inaccuracy ladder alt" attribute (float | 4 bytes)
+			"m_flInaccuracyLadder[0]"		// "inaccuracy ladder" attribute (float | 4 bytes)
 			{
 				"windows"   "364"
 				"linux"     "364"
 			}
-			"m_flInaccuracyImpulseFire[0]"		// "inaccuracy fire" attribute (float | 4 bytes)
+			"m_flInaccuracyLadder[1]"		// "inaccuracy ladder alt" attribute (float | 4 bytes)
 			{
 				"windows"   "368"
 				"linux"     "368"
 			}
-			"m_flInaccuracyImpulseFire[1]"		// "inaccuracy fire alt" attribute (float | 4 bytes)
+			"m_flInaccuracyImpulseFire[0]"		// "inaccuracy fire" attribute (float | 4 bytes)
 			{
 				"windows"   "372"
 				"linux"     "372"
 			}
-			"m_flInaccuracyMove[0]"		// "inaccuracy move" attribute (float | 4 bytes)
+			"m_flInaccuracyImpulseFire[1]"		// "inaccuracy fire alt" attribute (float | 4 bytes)
 			{
 				"windows"   "376"
 				"linux"     "376"
 			}
-			"m_flInaccuracyMove[1]"		// "inaccuracy move alt" attribute (float | 4 bytes)
+			"m_flInaccuracyMove[0]"		// "inaccuracy move" attribute (float | 4 bytes)
 			{
 				"windows"   "380"
 				"linux"     "380"
 			}
-			"m_flInaccuracyReload[0]"		// "inaccuracy reload" attribute (float | 4 bytes)
+			"m_flInaccuracyMove[1]"		// "inaccuracy move alt" attribute (float | 4 bytes)
 			{
 				"windows"   "384"
 				"linux"     "384"
 			}
-			"m_iRecoilSeed"		// "recoil seed" attribute (int | 4 bytes)
+			"m_flInaccuracyReload[0]"		// "inaccuracy reload" attribute (float | 4 bytes)
 			{
 				"windows"   "388"
 				"linux"     "388"
 			}
-			"m_flRecoilAngle[0]"		// "recoil angle" attribute (float | 4 bytes)
+			"m_iRecoilSeed"		// "recoil seed" attribute (int | 4 bytes)
 			{
 				"windows"   "392"
 				"linux"     "392"
 			}
-			"m_flRecoilAngle[1]"		// "recoil angle alt" attribute (float | 4 bytes)
+			"m_flRecoilAngle[0]"		// "recoil angle" attribute (float | 4 bytes)
 			{
 				"windows"   "396"
 				"linux"     "396"
 			}
-			"m_flRecoilAngleVariance[0]"		// "recoil angle variance" attribute (float | 4 bytes)
+			"m_flRecoilAngle[1]"		// "recoil angle alt" attribute (float | 4 bytes)
 			{
 				"windows"   "400"
 				"linux"     "400"
 			}
-			"m_flRecoilAngleVariance[1]"		// "recoil angle variance alt" attribute (float | 4 bytes)
+			"m_flRecoilAngleVariance[0]"		// "recoil angle variance" attribute (float | 4 bytes)
 			{
 				"windows"   "404"
 				"linux"     "404"
 			}
-			"m_flRecoilMagnitude[0]"		// "recoil magnitude" attribute (float | 4 bytes)
+			"m_flRecoilAngleVariance[1]"		// "recoil angle variance alt" attribute (float | 4 bytes)
 			{
 				"windows"   "408"
 				"linux"     "408"
 			}
-			"m_flRecoilMagnitude[1]"		// "recoil magnitude alt" attribute (float | 4 bytes)
+			"m_flRecoilMagnitude[0]"		// "recoil magnitude" attribute (float | 4 bytes)
 			{
 				"windows"   "412"
 				"linux"     "412"
 			}
-			"m_flRecoilMagnitudeVariance[0]"		// "recoil magnitude variance" attribute (float | 4 bytes)
+			"m_flRecoilMagnitude[1]"		// "recoil magnitude alt" attribute (float | 4 bytes)
 			{
 				"windows"   "416"
 				"linux"     "416"
 			}
-			"m_flRecoilMagnitudeVariance[1]"		// "recoil magnitude variance alt" attribute (float | 4 bytes)
+			"m_flRecoilMagnitudeVariance[0]"		// "recoil magnitude variance" attribute (float | 4 bytes)
 			{
 				"windows"   "420"
 				"linux"     "420"
 			}
-			"m_iSpreadSeed"		// "spread seed" attribute (int | 4 bytes)
+			"m_flRecoilMagnitudeVariance[1]"		// "recoil magnitude variance alt" attribute (float | 4 bytes)
 			{
 				"windows"   "424"
 				"linux"     "424"
 			}
-			"m_flRecoveryTimeCrouch"		// "recovery time crouch" attribute (float | 4 bytes)
+			"m_iSpreadSeed"		// "spread seed" attribute (int | 4 bytes)
 			{
 				"windows"   "428"
 				"linux"     "428"
 			}
-			"m_flRecoveryTimeStand"		// "recovery time stand" attribute (float | 4 bytes)
+			"m_flRecoveryTimeCrouch"		// "recovery time crouch" attribute (float | 4 bytes)
 			{
 				"windows"   "432"
 				"linux"     "432"
 			}
-			"m_flRecoveryTimeCrouchFinal"		// "recovery time crouch final" attribute (float | 4 bytes)
+			"m_flRecoveryTimeStand"		// "recovery time stand" attribute (float | 4 bytes)
 			{
 				"windows"   "436"
 				"linux"     "436"
 			}
-			"m_flRecoveryTimeStandFinal"		// "recovery time stand final" attribute (float | 4 bytes)
+			"m_flRecoveryTimeCrouchFinal"		// "recovery time crouch final" attribute (float | 4 bytes)
 			{
 				"windows"   "440"
 				"linux"     "440"
 			}
-			"m_iRecoveryTransitionStartBullet"		// "recovery transition start bullet" attribute (int | 4 bytes)
+			"m_flRecoveryTimeStandFinal"		// "recovery time stand final" attribute (float | 4 bytes)
 			{
 				"windows"   "444"
 				"linux"     "444"
 			}
-			"m_iRecoveryTransitionEndBullet"		// "recovery transition end bullet" attribute (int | 4 bytes)
+			"m_iRecoveryTransitionStartBullet"		// "recovery transition start bullet" attribute (int | 4 bytes)
 			{
 				"windows"   "448"
 				"linux"     "448"
 			}
-			"m_bUnZoomAfterShot"		// "unzoom after shot" attribute (bool | 1 byte)
+			"m_iRecoveryTransitionEndBullet"		// "recovery transition end bullet" attribute (int | 4 bytes)
 			{
 				"windows"   "452"
 				"linux"     "452"
 			}
-			"m_bHideViewModelZoomed"		// "hide view model zoomed" attribute (bool | 1 byte)
+			"m_bUnZoomAfterShot"		// "unzoom after shot" attribute (bool | 1 byte)
 			{
 				"windows"   "453"
 				"linux"     "453"
 			}
+			"m_bHideViewModelZoomed"		// "hide view model zoomed" attribute (bool | 1 byte)
+			{
+				"windows"   "454"
+				"linux"     "454"
+			}
 			"m_iZoomLevels"		// "zoom levels" attribute (int | 4 bytes)
 			{
-				"windows"   "456"
-				"linux"     "456"
+				"windows"   "460"
+				"linux"     "460"
 			}
 			// Not found
 			// "m_iZoomFov[0]"		// "zoom fov 0" attribute (4 bytes)
@@ -435,143 +446,143 @@
 			// }
 			"m_iZoomFov[1]"		// "zoom fov 1" attribute (int | 4 bytes)
 			{
-				"windows"   "460"
-				"linux"     "460"
-			}
-			"m_iZoomFov[2]"		// "zoom fov 2" attribute (int | 4 bytes)
-			{
 				"windows"   "464"
 				"linux"     "464"
 			}
-			"m_flZoomTime[0]"		// "zoom time 0" attribute (float | 4 bytes)
+			"m_iZoomFov[2]"		// "zoom fov 2" attribute (int | 4 bytes)
 			{
 				"windows"   "468"
 				"linux"     "468"
 			}
-			"m_flZoomTime[1]"		// "zoom time 1" attribute (float | 4 bytes)
+			"m_flZoomTime[0]"		// "zoom time 0" attribute (float | 4 bytes)
 			{
 				"windows"   "472"
 				"linux"     "472"
 			}
-			"m_flZoomTime[2]"		// "zoom time 2" attribute (float | 4 bytes)
+			"m_flZoomTime[1]"		// "zoom time 1" attribute (float | 4 bytes)
 			{
 				"windows"   "476"
 				"linux"     "476"
 			}
-			"m_pszAddonLocation"		// "addon_location" visuals (char* | 4 bytes)
+			"m_flZoomTime[2]"		// "zoom time 2" attribute (float | 4 bytes)
 			{
 				"windows"   "480"
 				"linux"     "480"
 			}
-			"m_pszParticleEffectName"		// "particle_effect" visuals (char* | 4 bytes) // it was hard to identify when not in use
+			"m_pszAddonLocation"		// "addon_location" visuals (char* | 4 bytes)
 			{
 				"windows"   "484"
 				"linux"     "484"
 			}
-			"m_flAddonScale"		// "addon scale" attribute (float | 4 bytes)
+			"m_pszParticleEffectName"		// "particle_effect" visuals (char* | 4 bytes) // it was hard to identify when not in use
 			{
 				"windows"   "488"
 				"linux"     "488"
 			}
-			"m_pszEjectBrassEffectName"		// "eject_brass_effect" visuals (char* | 4 bytes)
+			"m_flAddonScale"		// "addon scale" attribute (float | 4 bytes)
 			{
 				"windows"   "492"
 				"linux"     "492"
 			}
-			"m_pszTracerEffectName"		// "tracer_effect" visuals (char* | 4 bytes)
+			"m_pszEjectBrassEffectName"		// "eject_brass_effect" visuals (char* | 4 bytes)
 			{
 				"windows"   "496"
 				"linux"     "496"
 			}
-			"m_iTracerFequency[0]"		// "tracer frequency" attribute (int | 4 bytes)
+			"m_pszTracerEffectName"		// "tracer_effect" visuals (char* | 4 bytes)
 			{
 				"windows"   "500"
 				"linux"     "500"
 			}
-			"m_iTracerFequency[1]"		// "tracer frequency alt" attribute (int | 4 bytes)
+			"m_iTracerFequency[0]"		// "tracer frequency" attribute (int | 4 bytes)
 			{
 				"windows"   "504"
 				"linux"     "504"
 			}
-			"m_pszMuzzleFlashEffect1stPersonName[0]"		// "muzzle_flash_effect_1st_person" visuals (char* | 4 bytes)
+			"m_iTracerFequency[1]"		// "tracer frequency alt" attribute (int | 4 bytes)
 			{
 				"windows"   "508"
 				"linux"     "508"
 			}
-			"m_pszMuzzleFlashEffect1stPersonName[1]"		// "muzzle_flash_effect_1st_person alt" visuals (char* | 4 bytes)
+			"m_pszMuzzleFlashEffect1stPersonName[0]"		// "muzzle_flash_effect_1st_person" visuals (char* | 4 bytes)
 			{
 				"windows"   "512"
 				"linux"     "512"
 			}
-			"m_pszMuzzleFlashEffect3rdPersonName[0]"		// "muzzle_flash_effect_3rd_person" visuals (char* | 4 bytes)
+			"m_pszMuzzleFlashEffect1stPersonName[1]"		// "muzzle_flash_effect_1st_person alt" visuals (char* | 4 bytes)
 			{
 				"windows"   "516"
 				"linux"     "516"
 			}
-			"m_pszMuzzleFlashEffect3rdPersonName[1]"		// "muzzle_flash_effect_3rd_person alt" visuals (char* | 4 bytes)
+			"m_pszMuzzleFlashEffect3rdPersonName[0]"		// "muzzle_flash_effect_3rd_person" visuals (char* | 4 bytes)
 			{
 				"windows"   "520"
 				"linux"     "520"
 			}
-			"m_pszHeatEffectName"		// "heat_effect" visuals (char* | 4 bytes)
+			"m_pszMuzzleFlashEffect3rdPersonName[1]"		// "muzzle_flash_effect_3rd_person alt" visuals (char* | 4 bytes)
 			{
 				"windows"   "524"
 				"linux"     "524"
 			}
-			"m_flHeatPerShot"		// "heat per shot" attribute (float | 4 bytes)
+			"m_pszHeatEffectName"		// "heat_effect" visuals (char* | 4 bytes)
 			{
 				"windows"   "528"
 				"linux"     "528"
 			}
-			"m_pszZoomINSound"		// "zoom_in_sound" attribute (char* | 4 bytes)
+			"m_flHeatPerShot"		// "heat per shot" attribute (float | 4 bytes)
 			{
 				"windows"   "532"
 				"linux"     "532"
 			}
-			"m_pszZoomOUTSound"		// "zoom_out_sound" attribute (char* | 4 bytes)
+			"m_pszZoomINSound"		// "zoom_in_sound" attribute (char* | 4 bytes)
 			{
 				"windows"   "536"
 				"linux"     "536"
 			}
-			"m_flInaccuracyPitchShift"		// "inaccuracy pitch shift" attribute (float | 4 bytes)
+			"m_pszZoomOUTSound"		// "zoom_out_sound" attribute (char* | 4 bytes)
 			{
 				"windows"   "540"
 				"linux"     "540"
 			}
-			"m_iInaccuracyAltSoundThreshold"		// "inaccuracy alt sound threshold" attribute (int | 4 bytes)
+			"m_flInaccuracyPitchShift"		// "inaccuracy pitch shift" attribute (float | 4 bytes)
 			{
 				"windows"   "544"
 				"linux"     "544"
 			}
-			"m_flBotAudibleRange"		// "bot audible range" attribute (float | 4 bytes)
+			"m_iInaccuracyAltSoundThreshold"		// "inaccuracy alt sound threshold" attribute (int | 4 bytes)
 			{
-				"windows"   "548"
-				"linux"     "548"
+				"windows"   "58"
+				"linux"     "58"
 			}
-			"m_pPaintData"		// "paint_data" prefab struct (struct PaintData* | 4 bytes)
+			"m_flBotAudibleRange"		// "bot audible range" attribute (float | 4 bytes)
 			{
 				"windows"   "552"
 				"linux"     "552"
 			}
-			"m_pszWrongTeamMsg"		// "wrong team msg" attribute (char* | 4 bytes)
+			"m_pPaintData"		// "paint_data" prefab struct (struct PaintData* | 4 bytes)
 			{
-				"windows"   "560"
-				"linux"     "560"
+				"windows"   "556"
+				"linux"     "556"
 			}
-			"m_bBurstMode"		// "has burst mode" attribute (bool | 1 byte)
+			"m_pszWrongTeamMsg"		// "wrong team msg" attribute (char* | 4 bytes)
 			{
 				"windows"   "564"
 				"linux"     "564"
 			}
+			"m_bBurstMode"		// "has burst mode" attribute (bool | 1 byte)
+			{
+				"windows"   "568"
+				"linux"     "568"
+			}
 			"m_bIsRevolver"		// "is revolver" attribute (bool | 1 byte)
 			{
-				"windows"   "565"
-				"linux"     "565"
+				"windows"   "569"
+				"linux"     "569"
 			}
 			"m_bCannotShootUnderwater"		// "cannot shoot underwater" attribute (bool | 1 byte)
 			{
-				"windows"   "566"
-				"linux"     "566"
+				"windows"   "570"
+				"linux"     "570"
 			}
 		}
 
@@ -584,7 +595,6 @@
 			"GetCCSWeaponData"
 			{
 				"library"	"server"
-
 				"windows"	"\x85\xC9\x75\x2A\x33\xC0\xC3\xE8"
 				"linux"		"\x55\x89\xE5\x83\xEC\x18\x8B\x45\x08\x85\xC0\x74\x2A\x89\x04\x24"
 			}
@@ -593,7 +603,6 @@
 			"GetCCSWeaponDataFromDef"
 			{
 				"library"	"server"
-
 				"windows"	"\x85\xC9\x75\x2A\x33\xC0\xC3\x8B\x01"
 				"linux"		"\x55\x31\xC0\x89\xE5\x53\x83\xEC\x14\x8B\x55\x08\x85\xD2"
 			}
