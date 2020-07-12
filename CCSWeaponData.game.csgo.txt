@@ -277,7 +277,7 @@
 				"windows"   "344"
 				"linux"     "344"
 			}
-			// Not found
+			// Not found. Probably soon will be.
 			// "m_flInaccuracyJumpApex[1]"		// "inaccuracy jump apex alt" attribute (float | 4 bytes)
 			// {
 			// 	"windows"   "?"
@@ -433,18 +433,12 @@
 				"windows"   "460"
 				"linux"     "460"
 			}
-			// Not found
-			// "m_iZoomFov[0]"		// "zoom fov 0" attribute (4 bytes)
-			// {
-			// 	"windows"   "?"
-			// 	"linux"     "?"
-			// }
-			"m_iZoomFov[1]"		// "zoom fov 1" attribute (int | 4 bytes)
+			"m_iZoomFov[0]"		// "zoom fov 1" attribute (int | 4 bytes)
 			{
 				"windows"   "464"
 				"linux"     "464"
 			}
-			"m_iZoomFov[2]"		// "zoom fov 2" attribute (int | 4 bytes)
+			"m_iZoomFov[1]"		// "zoom fov 2" attribute (int | 4 bytes)
 			{
 				"windows"   "468"
 				"linux"     "468"
