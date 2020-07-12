@@ -182,30 +182,25 @@
 				"windows"   "260"
 				"linux"     "260"
 			}
-			"m_flFlinchVelocityModifierSmall"		// "range" attribute (float | 4 bytes)
+			"m_flRange"		// "range" attribute (float | 4 bytes)
 			{
 				"windows"   "264"
 				"linux"     "264"
 			}
-			"m_flRange"		// "range" attribute (float | 4 bytes)
+			"m_flRangeModifier"		// "range modifier" attribute (float | 4 bytes)
 			{
 				"windows"   "268"
 				"linux"     "268"
 			}
-			"m_flRangeModifier"		// "range modifier" attribute (float | 4 bytes)
+			"m_flThrowVelocity"		// "throw velocity" attribute (float | 4 bytes)
 			{
 				"windows"   "272"
 				"linux"     "272"
 			}
-			"m_flThrowVelocity"		// "throw velocity" attribute (float | 4 bytes)
+			"m_vecStaticAttributes"		// static attributes vector (CUtlVector<static_attrib_t, CUtlMemory<static_attrib_t, int>> | 12 bytes)
 			{
 				"windows"   "276"
 				"linux"     "276"
-			}
-			"m_vecStaticAttributes"		// "throw velocity" attribute (CUtlVector<static_attrib_t, CUtlMemory<static_attrib_t, int>> | 12 bytes)
-			{
-				"windows"   "280"
-				"linux"     "280"
 			}
 			"m_iIsSilencer"		// "has silencer" attribute (int | 4 bytes)
 			{
