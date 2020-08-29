@@ -2,6 +2,106 @@
 {
 	"csgo"
 	{
+		"Keys"
+		{
+			// Static attributes.
+			"primary clip size"                "m_iPrimaryClip"                   // Max primary clip size (-1 if no clip).
+			"secondary clip size"              "m_iSecondaryClip"                 // Max secondary clip size (-1 if no clip).
+			"primary default clip size"        "m_iPrimaryDefaultClip"            // Amount of primary ammo in the gun when it's created.
+			"secondary default clip size"      "m_iSecondaryDefaultClip"          // Amount of secondary ammo in the gun when it's created.
+			"primary reserve ammo max"         "m_iPrimaryReserveAmmo"
+			"secondary reserve ammo max"       "m_iSecondaryReserveAmmo"
+			"allow hand flipping"              "m_bAllowHandFlipping"             // False to disallow flipping the model, regardless of whether it is built left or right handed.
+			"model right handed"               "m_bModelRightHended"              // This tells if the weapon was built right-handed (defaults to true). This helps cl_righthand make the decision about whether to flip the model or not.
+			"is melee weapon"                  "m_bIsMeleeWeapon"                 // Melee weapons can always "fire" regardless of ammo.
+			"itemflag select on empty"         "m_iItemFlags:0"
+			"itemflag no auto reload"          "m_iItemFlags:1"
+			"itemflag no auto switch empty"    "m_iItemFlags:2"
+			"itemflag limit in world"          "m_iItemFlags:3"
+			"itemflag exhaustible"             "m_iItemFlags:4"
+			"itemflag do hit location dmg"     "m_iItemFlags:5"
+			"itemflag no ammo pickups"         "m_iItemFlags:6"
+			"itemflag no item pickup"          "m_iItemFlags:7"
+			"weapon weight"                    "m_iWeight"                        // This value used to determine this weapon's importance in autoselection.
+			"rumble effect"                    "m_iRumbleEffect"                  // Which rumble effect to use when fired? (xbox)
+			"in game price"                    "m_iWeaponPrice"
+			"kill award"                       "m_iKillAward"
+			"cycletime"                        "m_flCycleTime[0]"
+			"cycletime alt"                    "m_flCycleTime[1]"
+			"time to idle"                     "m_flTimeToIdleAfterFire"          // Delay until the next idle animation after shooting.
+			"idle interval"                    "m_flIdleInterval"                 // Delay until the next idle animation after shooting.
+			"is full auto"                     "m_bFullAuto"                      // It's this a fully automatic weapon?
+			"damage"                           "m_iDamage"
+			"armor ratio"                      "m_flArmorRatio"
+			"bullets"                          "m_iBullets"
+			"penetration"                      "m_iPenetration"                   // It's this many maximum walls can a bullet fly through?
+			"flinch velocity modifier large"   "m_flFlinchVelocityModifierLarge"  // Velocity modifier for anyone hit by this weapon.
+			"flinch velocity modifier small"   "m_flFlinchVelocityModifierSmall"  // Velocity modifier for anyone hit by this weapon.
+			"range"                            "m_flRange"                        // Responsible for deflecting the bullet.
+			"range modifier"                   "m_flRangeModifier"                // Responsible for deflecting the bullet.
+			"throw velocity"                   "m_flThrowVelocity"                // Grenade throw parameter.
+			"has silencer"                     "m_iIsSilencer"
+			"silencer model"                   "m_pszSilencerModel"
+			"crosshair min distance"           "m_iCrosshairMinDistance"
+			"crosshair delta distance"         "m_iCrosshairDeltaDistance"
+			"max player speed"                 "m_flMaxSpeed[0]"                  // How fast the player can run while this is his primary weapon.
+			"max player speed alt"             "m_flMaxSpeed[1]"                  // How fast the player can run while this is his primary weapon.
+			"attack movespeed factor"          "m_flAttrackMoveSpeedFactor"
+			"spread"                           "m_flSpread[0]"
+			"spread alt"                       "m_flSpread[1]"
+			"inaccuracy crouch"                "m_flInaccuracyCrouch[0]"
+			"inaccuracy crouch alt"            "m_flInaccuracyCrouch[1]"
+			"inaccuracy stand"                 "m_flInaccuracyStand[0]"
+			"inaccuracy stand alt"             "m_flInaccuracyStand[1]"
+			"inaccuracy jump initial"          "m_flInaccuracyJumpInital"
+			"inaccuracy jump apex"             "m_flInaccuracyJumpApex"
+			"inaccuracy jump"                  "m_flInaccuracyJump[0]"
+			"inaccuracy jump alt"              "m_flInaccuracyJump[1]"
+			"inaccuracy land"                  "m_flInaccuracyLand[0]"
+			"inaccuracy land alt"              "m_flInaccuracyLand[1]"
+			"inaccuracy ladder"                "m_flInaccuracyLadder[0]"
+			"inaccuracy ladder alt"            "m_flInaccuracyLadder[1]"
+			"inaccuracy fire"                  "m_flInaccuracyImpulseFire[0]"
+			"inaccuracy fire alt"              "m_flInaccuracyImpulseFire[1]"
+			"inaccuracy move"                  "m_flInaccuracyMove[0]"
+			"inaccuracy move alt"              "m_flInaccuracyMove[1]"
+			"inaccuracy reload"                "m_flInaccuracyReload"
+			"recoil seed"                      "m_iRecoilSeed"
+			"recoil angle"                     "m_flRecoilAngle[0]"
+			"recoil angle alt"                 "m_flRecoilAngle[1]"
+			"recoil angle variance"            "m_flRecoilAngleVariance[0]"
+			"recoil angle variance alt"        "m_flRecoilAngleVariance[1]"
+			"recoil magnitude"                 "m_flRecoilMagnitude[0]"
+			"recoil magnitude alt"             "m_flRecoilMagnitude[1]"
+			"recoil magnitude variance"        "m_flRecoilMagnitudeVariance[0]"
+			"recoil magnitude variance alt"    "m_flRecoilMagnitudeVariance[1]"
+			"spread seed"                      "m_iSpreadSeed"
+			"recovery time crouch"             "m_flRecoveryTimeCrouch"
+			"recovery time stand"              "m_flRecoveryTimeStand"
+			"recovery time crouch final"       "m_flRecoveryTimeCrouchFinal"
+			"recovery time stand final"        "m_flRecoveryTimeStandFinal"
+			"recovery transition start bullet" "m_iRecoveryTransitionStartBullet"
+			"recovery transition end bullet"   "m_iRecoveryTransitionEndBullet"
+			"unzoom after shot"                "m_bUnZoomAfterShot"
+			"hide view model zoomed"           "m_bHideViewModelZoomed"
+			"zoom levels"                      "m_iZoomLevels"
+			"zoom fov 1"                       "m_iZoomFov[0]"
+			"zoom fov 2"                       "m_iZoomFov[1]"
+			"zoom time 0"                      "m_flZoomTime[0]"
+			"zoom time 1"                      "m_flZoomTime[1]"
+			"zoom time 2"                      "m_flZoomTime[2]"
+			"addon scale"                      "m_flAddonScale"
+			"tracer frequency"                 "m_iTracerFequency[0]"
+			"tracer frequency alt"             "m_iTracerFequency[1]"
+			"heat per shot"                    "m_flHeatPerShot"
+			"inaccuracy pitch shift"           "m_flInaccuracyPitchShift"
+			"inaccuracy alt sound threshold"   "m_iInaccuracyAltSoundThreshold"
+			"bot audible range"                "m_flBotAudibleRange"
+			"wrong team msg"                   "m_pszWrongTeamMsg"
+			"has burst mode"                   "m_bBurstMode"
+			"is revolver"                      "m_bIsRevolver"
+			"cannot shoot underwater"
+		}
 		"Offsets"
 		{
 			"m_pszClassName"		// "name" items (char* | 4 bytes)
@@ -101,6 +201,11 @@
 			{
 				"windows"   "192"
 				"linux"     "192"
+			}
+			"m_weaponId"		// weapon type (enum CSWeaponID | 4 byte)
+			{
+				"windows"   "196"
+				"linux"     "196"
 			}
 			"m_WeaponType"		// weapon type (enum CSWeaponType | 4 byte)
 			{
@@ -277,7 +382,7 @@
 				"windows"   "344"
 				"linux"     "344"
 			}
-			// Not found. Probably soon will be.
+			// Not found. Most likely will be.
 			// "m_flInaccuracyJumpApex[1]"		// "inaccuracy jump apex alt" attribute (float | 4 bytes)
 			// {
 			// 	"windows"   "?"
@@ -540,8 +645,8 @@
 			}
 			"m_iInaccuracyAltSoundThreshold"		// "inaccuracy alt sound threshold" attribute (int | 4 bytes)
 			{
-				"windows"   "58"
-				"linux"     "58"
+				"windows"   "548"
+				"linux"     "548"
 			}
 			"m_flBotAudibleRange"		// "bot audible range" attribute (float | 4 bytes)
 			{
@@ -553,7 +658,7 @@
 				"windows"   "556"
 				"linux"     "556"
 			}
-			"m_nUsedByTeam"		// "used_by_classes" prefab (char | 1 byte)
+			"m_nUsedByTeam"		// "used_by_classes" prefab (int | 4 byte)
 			{
 				"windows"   "560"
 				"linux"     "560"
@@ -580,7 +685,8 @@
 			}
 		}
 
-		// 8B 01 56 8B 35 2A 2A 2A 2A FF 10 0F B7 C0 B9 2A 2A 2A 2A 50 FF 56 08 5E C3 on Windows for seach this functions.
+		// Wrapper CCSWeaponSystem::GetFileWeaponInfoFromHandle(int)
+		// 8B 01 56 8B 35 2A 2A 2A 2A FF 10 0F B7 C0 B9 2A 2A 2A 2A 50 FF 56 08 5E C3 on Windows for search GetCCSWeaponData(FromDef).
 		"Signatures"
 		{
 			// GetCCSWeaponData(const CEconItemView *)
@@ -588,17 +694,17 @@
 			// "FX_FireBullets: GetFileWeaponInfoFromHandle failed for weapon %s\n" on Linux
 			"GetCCSWeaponData"
 			{
-				"library"	"server"
-				"windows"	"\x85\xC9\x75\x2A\x33\xC0\xC3\xE8"
-				"linux"		"\x55\x89\xE5\x83\xEC\x18\x8B\x45\x08\x85\xC0\x74\x2A\x89\x04\x24"
+				"library"   "server"
+				"windows"   "\x85\xC9\x75\x2A\x33\xC0\xC3\xE8"
+				"linux"     "\x55\x89\xE5\x83\xEC\x18\x8B\x45\x08\x85\xC0\x74\x2A\x89\x04\x24"
 			}
 			// GetCCSWeaponDataFromDef(const CEconItemDefinition *)
 			// GetCCSWeaponData + 0x20 on Linux
 			"GetCCSWeaponDataFromDef"
 			{
-				"library"	"server"
-				"windows"	"\x85\xC9\x75\x2A\x33\xC0\xC3\x8B\x01"
-				"linux"		"\x55\x31\xC0\x89\xE5\x53\x83\xEC\x14\x8B\x55\x08\x85\xD2"
+				"library"   "server"
+				"windows"   "\x85\xC9\x75\x2A\x33\xC0\xC3\x8B\x01"
+				"linux"     "\x55\x31\xC0\x89\xE5\x53\x83\xEC\x14\x8B\x55\x08\x85\xD2"
 			}
 		}
 	}
