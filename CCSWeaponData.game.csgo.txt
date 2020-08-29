@@ -100,7 +100,7 @@
 			"wrong team msg"                   "m_pszWrongTeamMsg"
 			"has burst mode"                   "m_bBurstMode"
 			"is revolver"                      "m_bIsRevolver"
-			"cannot shoot underwater"
+			"cannot shoot underwater"          "m_bCannotShootUnderwater"
 		}
 		"Offsets"
 		{
